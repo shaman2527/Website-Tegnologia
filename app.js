@@ -1,0 +1,1 @@
+console.log(new Error('!ocurrio un erroe!'))

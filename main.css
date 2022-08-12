@@ -1,0 +1,203 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.contenedor{
+
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+ header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+
+    header{
+        background-image: url(tegno.png);
+       
+        height: 625px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.808) inset;
+        
+        
+    }
+
+    nav >a {
+        padding: 0px 20px ;
+        text-decoration: none;
+        font-family: cursive;
+        font-weight: bold;
+        cursor: pointer;
+        color: #fbfbfb;
+        
+    }
+
+    a:hover{
+        color: rgb(179, 255, 0);
+    }
+
+    .texto {
+        text-decoration: none;
+        color: rgb(0, 255, 221);
+        margin-left: 20px;
+        
+        
+        
+        
+        cursor: pointer;
+    }
+
+
+    h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 1.9em;
+        text-decoration: none;
+    }
+
+    .hero-texto{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(126, 8, 8);
+        font-size: 2em;
+        font-family:monospace ;
+        font-weight: bold;
+        
+    }
+
+    .hero-texto:hover {
+        color: rgb(21, 255, 0);
+    }
+
+
+
+    /* contenido*/
+
+    section{
+        padding: 50px 10px;
+        margin: 20px;
+        box-shadow: 20px 20px 50px rgb(212, 79, 79);
+        
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        border: 1px solid rgba(255, 0, 0, 0.301);
+
+        
+    }
+
+ 
+
+    .galeria-fotos{
+      
+        display: grid;
+        width: 100%;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        
+      
+    }
+    
+    h2{
+        font-family: cursive;
+        font-weight: bold;
+        padding-bottom: 20px;
+        margin: 10px;
+    }
+
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 10px;
+    }
+
+
+img{
+        
+        
+        
+        padding: 10px;
+        margin: 10px;
+        width: 100%;   
+        text-align: center; 
+        justify-content: center;
+        align-items: center; 
+         box-shadow: 20px 20px 50px rgb(175, 62, 62);
+         border: 1px solid rgba(41, 17, 17, 0.301);
+
+}
+
+footer{
+    padding: 20px;
+    margin: 20 px;
+    
+    
+}
+
+footer .contacto{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    font-weight: bold;
+    font-family: cursive;
+    margin: 10px;
+    padding-right: 10px;
+    text-align:end;
+   
+}
+
+li{
+    list-style: none;
+}
+
+
+
+   @media screen and (max-width: 700px) {
+
+
+        
+
+        .contenedor {
+            display: grid;
+            grid-template-columns:  repeat(2, 1fr);
+            align-content: space-between;
+            
+
+
+        }
+
+      
+   }
+
+
+
+
+   
+
+      
+       
+   
+ 
